@@ -16,12 +16,18 @@ public class Bean {
     
     public void calculator(String lista) {
         valores = new ArrayList<Double>();
+<<<<<<< HEAD
 
         for (String b : lista.split(";")) {
 
             valores.add(Double.valueOf(b));
         }
         
+=======
+        for (String b : lista.split(";")) {
+            valores.add(Double.valueOf(b));
+        }
+>>>>>>> b7c537a70029ff53ea5047d653baea0fd514d7fd
         calculateMean(valores);
         calculateVariance(valores);
         calculateMode(valores);
